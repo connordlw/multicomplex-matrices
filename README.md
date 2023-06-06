@@ -6,6 +6,6 @@ Diagonalizations are stored as three arrays in MATLAB format:
 
 A 1xk array containing the eigenvalues for the J matrix.
 
-A kxk array containing the eigenvectors for the J matrix.
+A kxk array containing the eigenvectors for the J matrix as columns. The i-th column is the eigenvector for the i-th eigenvalue from the array above.
 
 A kxk array containing the inverse of the eigenvector matrix.
